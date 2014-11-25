@@ -6,6 +6,7 @@ This example is based around a simple Express server that provides a few fun end
 
     git clone git@github.com:Moxles/getting-started.git MyProjectFolder
     cd MyProjectFolder
+    npm install
     node site
 
 ## Deploying
