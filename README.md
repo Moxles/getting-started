@@ -16,7 +16,7 @@ This example is based around a simple Express server that provides a few fun end
     modulus project create
     modulus deploy
 
-Modules
+## Modules
 
 * [express](http://expressjs.com/) - HTTP server framework
 * [hbs](https://github.com/donpark/hbs) - Handlebars engine
