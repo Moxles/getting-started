@@ -1,0 +1,7 @@
+<p>This page, as well as the other pages in this example, is comprised of two distinct parts. The <em>layout</em> and the page <em>body</em>. The layout template is used for every page, while the body (or page) template is only used for specific documents. Data can also be injected into the page using the templates. For example:</p>
+
+<p id="injectData">Hello {{name}}! The current time is {{time}} and you have {{events}} events today.</p>
+
+<p>To change the name and number of events, you can simply update the query string parameters <code>name</code> and <code>events</code>, respectively. An example URL would be <a href="?name=Richard&events=3"><code>/template?name=Richard&amp;events=3</code></a>. The values will be read by the server and injected into the page's template.</p>
+
+<p>While we are using <a href="https://github.com/donpark/hbs" target="_blank">Handlebars</a> for this example application, there are plenty of templating engines available to use with Express. <a href="https://github.com/jadejs/jade" target="_blank">Jade</a>, for example, is another common choice which is also referenced in the Express documentation. The only trick is finding the right one for you.</p>

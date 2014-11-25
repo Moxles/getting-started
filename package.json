@@ -1,0 +1,26 @@
+{
+  "name": "moxles-getting-started",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "~4.9.0",
+    "hbs": "~2.7.0",
+    "serve-favicon": "^2.1.7",
+    "socket.io": "^1.2.1"
+  },
+  "description": "Simple example to help get started with Node.js and Modulus.",
+  "main": "site.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Moxles/getting-started.git"
+  },
+  "keywords": [
+    "examples",
+    "modulus"
+  ],
+  "author": "Richard Key <rich@busyrich.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Moxles/getting-started/issues"
+  },
+  "homepage": "https://github.com/Moxles/getting-started"
+}

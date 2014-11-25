@@ -1,0 +1,5 @@
+<p>Below is a stream of heartbeats from all connected websocket clients, including you. This means that even if you are the only person connected, you will still get a live stream. For reference, your currently assigned client Id is display as well.</p>
+<h3 id="idHeader">Your Id is <span id="clientId">{{id}}</span></h3>
+<div id="beats"></div>
+<p>This example uses <a href="http://socket.io/" target="_blank">socket.io</a> to create a <a href="http://en.wikipedia.org/wiki/WebSocket" target="_blank">WebSocket</a> stream between the client and server. Anyone who visits this page opens up a websocket connection and begins emitting "pulses" to the server. The server then emits the data from that pulse to all connected "sockets". This means that a web of connected clients is created and is visualized as the heartbeat stream above.</p>
+<script type="text/javascript" src="/js/heartbeat.js"></script>

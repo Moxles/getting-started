@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #fff;
+  background-color: #333;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  font-family: Arial;
+}
+
+a {
+  color: #57b69c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 20px;
+}
+
+#header {
+  text-align: center;
+}
+
+#header #headerImg {
+  width: 300px;
+}
+
+#footer {
+  font-size: 0.75em;
+  line-height: 1.2em;
+}
+
+#footer #social {
+  text-align: center;
+  font-size: 2em;
+}
+
+#footer #social a {
+  color: #fff;
+}
+
+/* template page */
+#injectData {
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  padding: 20px;
+  background-color: #58595b;
+}
+
+/* Heartbeat Page */
+#idHeader {
+  text-align: center;
+}
+
+#beats {
+  height: 275px;
+  overflow: auto;
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #58595b;
+}
+
+#beats .beat {
+  display: block;
+  height: 64px;
+}
+
+#beats .beat .icon {
+  float: left;
+  font-size: 32px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  margin-right: 5px;
+}
+
+#beats .beat .id {
+  font-size: 0.75em;
+  padding: 5px 0;
+  display: block;
+}
