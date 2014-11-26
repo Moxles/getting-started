@@ -5,11 +5,13 @@
 
 body {
   color: #fff;
-  background-color: #333;
+  background-color: #58595b;
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.2em;
   font-family: Arial;
+  background-image: url('../img/bg.jpg');
+  background-repeat: repeat;
 }
 
 a {
@@ -31,8 +33,13 @@ p {
   margin: 0 auto;
 }
 
+#header,
+#footer {
+
+}
+
 #header {
-  padding: 20px;
+  padding: 30px;
 }
 
 #header {
@@ -43,7 +50,13 @@ p {
   width: 300px;
 }
 
+#content {
+  padding: 20px 0;
+  background-color: #333;
+}
+
 #footer {
+  padding-top: 10px;
   font-size: 0.75em;
   line-height: 1.2em;
 }
